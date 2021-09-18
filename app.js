@@ -23,9 +23,15 @@ function compareValues(sum, luckynum){
 }
 
 function checkLuckyBirthday(){
- const dob = dateOfBirth.value
-const sum = calculateSum(dob)
-compareValues(sum, Number(luckyNumber.value))
+  // console.log(dateOfBirth.value.trim()==='')
+  // console.log(luckyNumber.value.trim()==='');
+  if(luckyNumber.value.trim()==='' ||dateOfBirth.value.trim()===''){
+    outputMsg.innerHTML = "Please input in both the fields"
+  }
+  else{ const dob = dateOfBirth.value
+    const sum = calculateSum(dob)
+    compareValues(sum, Number(luckyNumber.value))}
+
   
 }
 
