@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lucky Birthday?</title>
+  </head>
+  <body>
+    <div>
+      <h1>Is Your Birthday Lucky?</h1>
+      <p style="max-width: 500px; margin: auto ;">
+        Check how it works. Input with your DOB and your lucky number. If the
+        sum of digits of your DOB turns out to be your lucky number, then your
+        Birthday is lucky to you 😃
+      </p>
+      <label for="dob">Enter your DOB </label>
+      <input type="date" id="dob" /><br />
+      <label for="lucky-num">Enter your Lucky Number </label>
+      <input type="number" id="lucky-num" /><br>
+      <button id="check">Check</button>
+      <p id="output-msg"></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

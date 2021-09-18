@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  
+}
+
+div{
+  text-align: center;
+}
+
+#dob{
+margin:2rem;
+}
+
+#lucky-num{
+margin:2rem;
+}
+
+#check{
+  padding: 1rem 2rem;
+  border: none;
+  font-family: inherit;
+}
+
+#output-msg{
+  font-size: 1.5rem;
+}
