@@ -9,20 +9,27 @@
   </head>
   <body>
     <div>
-      <h1>Is Your Birthday Lucky?</h1>
-      <p style="max-width: 500px; margin: auto ;">
-        Check how it works. Input with your DOB and your lucky number. If the
+      <h1 class="heading">Is Your Birthday Lucky?</h1>
+      <div class="container container-center">  Check how it works. Input with your DOB and your lucky number. If the
         sum of digits of your DOB turns out to be your lucky number, then your
-        Birthday is lucky to you 😃
-      </p>
+        Birthday is lucky to you 😃</div>
       <label for="dob">Enter your DOB </label>
       <input type="date" id="dob" /><br />
       <label for="lucky-num">Enter your Lucky Number </label>
       <input type="number" id="lucky-num" /><br>
       <button id="check">Check</button>
       <p id="output-msg"></p>
-    </div>
 
+      <p>Disclaimer: This site never stores your DOB while playing this game. It's just a fun game. Works with any date</p>
+    </div>
+<div id = "footer">
+  <p id ="footer-header">Connect with me</p>
+  <ul class="social-links">
+    <li class="list-item-inline"><a href="https://github.com/sharathnair9999"class="link">GitHub</a> </li>
+    <li class="list-item-inline"><a href="https://www.linkedin.com/in/sharath99/"class="link">LinkedIn</a> </li>
+    <li class="list-item-inline"><a href="https://twitter.com/Nairified" class="link">Twitter</a> </li>
+  </ul>
+</div>
     <script src="app.js"></script>
   </body>
 </html>

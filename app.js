@@ -12,13 +12,29 @@ function calculateSum(date){
   return sum;
   
 }
+var notLuckyColor= '#EF4444'
+var luckyColor='#34D399'
+
+function outputMessage(message,color){
+  outputMsg.innerHTML = message
+  outputMsg.style.backgroundColor=color
+    outputMsg.style.color='white'
+    outputMsg.style.width='300px'
+    outputMsg.style.marginRight='auto'
+    outputMsg.style.marginTop='1rem'
+    outputMsg.style.marginLeft='auto'
+    outputMsg.style.padding='1rem 2rem'
+    outputMsg.style.borderRadius='1rem'
+}
 
 function compareValues(sum, luckynum){
   if(sum%luckynum===0){
-    outputMsg.innerHTML = "Yes the Birthday is Lucky!!"
+    msg = "Yes! The Birthday is Lucky!!"
+    outputMessage(msg,luckyColor)
   }
   else{
-    outputMsg.innerHTML = "Oops! Your Birthday is not Lucky.."
+    msg = "Oops! Your Birthday is not Lucky.."
+    outputMessage(msg,notLuckyColor)
   }
 }
 
