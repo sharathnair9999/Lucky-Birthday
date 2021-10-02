@@ -29,17 +29,25 @@ div{
 .heading{
   background-color: var(--primary);
   padding: 1rem 2rem;
-  border-bottom-left-radius: 1rem;
+  border-radius: 1rem;
   color: #ffff;
   margin: 0;
 }
 
 #dob{
 margin:2rem;
+border-color: var(--primary);
+border-radius: 1rem;
+padding: 0.5rem 1rem;
+font-size: 1rem;
 }
 
 #lucky-num{
 margin:2rem;
+border-color: var(--primary);
+padding: 0.5rem 1rem;
+font-size: 1rem;
+border-radius: 1rem;
 }
 
 #check{
@@ -67,7 +75,7 @@ margin:2rem;
   padding: 1rem 2rem;
   text-align: center;
   color: white;
-  border-bottom-right-radius: 1rem;
+  border-radius: 1rem;
   /* position: fixed; */
   position: absolute;
   left: 0;
